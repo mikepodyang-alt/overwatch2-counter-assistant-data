@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "blizzard-hero-page",
+      "title": "暴雪官方英雄頁",
+      "url": "https://overwatch.blizzard.com/zh-tw/heroes/",
+      "kind": "official-roster",
+      "use": "英雄名稱、角色、技能與版本可用性"
+    },
+    {
+      "id": "blizzard-patch-notes",
+      "title": "暴雪官方更新說明",
+      "url": "https://overwatch.blizzard.com/en-us/news/patch-notes/",
+      "kind": "official-patch",
+      "use": "目前版本與平衡變更"
+    },
+    {
+      "id": "blizzard-hero-stats",
+      "title": "暴雪官方英雄統計",
+      "url": "https://overwatch.blizzard.com/zh-tw/rates/",
+      "kind": "official-aggregate-statistics",
+      "use": "依階級、模式、地圖、輸入裝置與地區篩選的選用率、勝率與禁用率；不直接證明英雄互相克制"
+    },
+    {
+      "id": "owcs-official",
+      "title": "Overwatch Champions Series 官方資訊與轉播",
+      "url": "https://ow.blizzard.cn/owcs/m/",
+      "kind": "official-esports",
+      "use": "職業賽事地圖、禁用與隊伍陣容脈絡；職業選角不直接等於一般天梯克制關係"
+    },
+    {
+      "id": "owcs-tracking-community",
+      "title": "OWCS 2026 比賽逐場陣容整理",
+      "url": "https://www.reddit.com/r/Competitiveoverwatch/comments/1r5h0lh/owcs_2026_statistics_spreadsheet_slight_bootcamp_spoilers/",
+      "kind": "community-esports-tracking",
+      "use": "交叉查核逐場選角、地圖與禁用；非官方，須保留賽段、版本與樣本數"
+    },
+    {
+      "id": "spilo-swap-guide",
+      "title": "Spilo：SWAP 反制觀念影片",
+      "url": "https://www.youtube.com/watch?v=Dsub1McryRk",
+      "kind": "coach-guide",
+      "use": "一般反制觀念；影片較舊，只作概念參考，不單獨支持目前版本的對位結論"
+    },
+    {
+      "id": "dotesports-counters-2026",
+      "title": "Dot Esports 2026 英雄反制整理",
+      "url": "https://dotesports.com/overwatch/news/the-best-counters-for-each-overwatch-2-hero",
+      "kind": "editorial-guide",
+      "use": "次級編輯資料；需再以現行技能說明、比賽或統計交叉查核"
+    }
+  ]
+}

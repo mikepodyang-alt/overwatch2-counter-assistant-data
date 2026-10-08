@@ -1,0 +1,9 @@
+{
+  "counterWeight": 0.30,
+  "synergyWeight": 0.20,
+  "threatWeight": 0.20,
+  "roleNeedWeight": 0.15,
+  "mapWeight": 0.00,
+  "survivabilityWeight": 0.08,
+  "utilityWeight": 0.07
+}

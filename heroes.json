@@ -1,0 +1,1448 @@
+{
+  "dataNote": "Roster and role assignments follow Blizzard official hero pages as of 2026-10-08. Traditional Chinese names are primary; nameEnglish preserves canonical English display names. Existing matchup relationships and numeric ratings are unverified prototype heuristics. Newly added heroes have neutral placeholder attributes and no matchup evidence. Do not treat scores as authoritative until evidence is reviewed and patch/rank context is added.",
+  "heroes": [
+    {
+      "id": "dmon",
+      "name": "D.Mon",
+      "nameEnglish": "D.Mon",
+      "role": "tank",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "doctrine",
+      "name": "Doctrine",
+      "nameEnglish": "Doctrine",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "ana",
+      "name": "安娜",
+      "role": "support",
+      "counters": [
+        {
+          "heroId": "reinhardt",
+          "strength": 0.45,
+          "reason": "Sleep Dart or Biotic Grenade can interrupt a committed frontline push."
+        }
+      ],
+      "counteredBy": [
+        {
+          "heroId": "genji",
+          "strength": 0.55,
+          "reason": "A mobile flanker can pressure Ana when her defensive cooldown is unavailable."
+        },
+        {
+          "heroId": "winston",
+          "strength": 0.65,
+          "reason": "A coordinated dive can force Ana to use defensive cooldowns."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "reinhardt",
+          "strength": 0.65,
+          "reason": "Reliable frontline access can create clear healing and ultimate windows."
+        },
+        {
+          "heroId": "genji",
+          "strength": 0.8,
+          "reason": "Nano Boost can support a coordinated Dragonblade timing."
+        }
+      ],
+      "strengths": [
+        "long-range healing",
+        "anti-heal utility",
+        "fight control"
+      ],
+      "weaknesses": [
+        "no mobility",
+        "vulnerable to dive"
+      ],
+      "mobility": 0.15,
+      "range": 0.9,
+      "survivability": 0.5,
+      "utility": 0.9,
+      "difficulty": 0.75,
+      "nameEnglish": "Ana",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "anran",
+      "name": "安燃",
+      "nameEnglish": "Anran",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "ashe",
+      "name": "艾西",
+      "nameEnglish": "Ashe",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "baptiste",
+      "name": "巴帝斯特",
+      "nameEnglish": "Baptiste",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "bastion",
+      "name": "壁壘機兵",
+      "nameEnglish": "Bastion",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "brigitte",
+      "name": "碧姬",
+      "nameEnglish": "Brigitte",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "cassidy",
+      "name": "卡西迪",
+      "nameEnglish": "Cassidy",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "dva",
+      "name": "D.Va",
+      "role": "tank",
+      "counters": [
+        {
+          "heroId": "pharah",
+          "strength": 0.65,
+          "reason": "Boosters and Defense Matrix can contest some airborne angles and projectiles."
+        }
+      ],
+      "counteredBy": [
+        {
+          "heroId": "zarya",
+          "strength": 0.65,
+          "reason": "Particle Cannon beam damage is not stopped by Defense Matrix."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "tracer",
+          "strength": 0.65,
+          "reason": "Both can pressure isolated targets from different angles."
+        },
+        {
+          "heroId": "mercy",
+          "strength": 0.55,
+          "reason": "Mobility lets D.Va return to a mobile pocket when needed."
+        }
+      ],
+      "strengths": [
+        "mobility",
+        "projectile denial",
+        "dive pressure"
+      ],
+      "weaknesses": [
+        "beam damage",
+        "large target"
+      ],
+      "mobility": 0.9,
+      "range": 0.45,
+      "survivability": 0.7,
+      "utility": 0.8,
+      "difficulty": 0.55,
+      "nameEnglish": "D.Va",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "domina",
+      "name": "多米娜",
+      "nameEnglish": "Domina",
+      "role": "tank",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "doomfist",
+      "name": "毀滅拳王",
+      "nameEnglish": "Doomfist",
+      "role": "tank",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "echo",
+      "name": "迴音",
+      "nameEnglish": "Echo",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "emre",
+      "name": "伊默",
+      "nameEnglish": "Emre",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "freja",
+      "name": "弗蕾亞",
+      "nameEnglish": "Freja",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "genji",
+      "name": "源氏",
+      "role": "damage",
+      "counters": [
+        {
+          "heroId": "ana",
+          "strength": 0.55,
+          "reason": "Mobility can pressure a low-mobility support when cooldowns are tracked."
+        }
+      ],
+      "counteredBy": [
+        {
+          "heroId": "winston",
+          "strength": 0.75,
+          "reason": "Tesla Cannon pressures Genji through Deflect and evasive movement."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "ana",
+          "strength": 0.8,
+          "reason": "Nano Boost can support a coordinated Dragonblade timing."
+        }
+      ],
+      "strengths": [
+        "mobility",
+        "burst engage",
+        "projectile deflection"
+      ],
+      "weaknesses": [
+        "needs close range",
+        "depends on cooldown timing"
+      ],
+      "mobility": 0.9,
+      "range": 0.4,
+      "survivability": 0.5,
+      "utility": 0.65,
+      "difficulty": 0.8,
+      "nameEnglish": "Genji",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "hanzo",
+      "name": "半藏",
+      "nameEnglish": "Hanzo",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "hazard",
+      "name": "災害",
+      "nameEnglish": "Hazard",
+      "role": "tank",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "illari",
+      "name": "伊拉里",
+      "nameEnglish": "Illari",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "jetpack-cat",
+      "name": "火箭貓",
+      "nameEnglish": "Jetpack Cat",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "junkerqueen",
+      "name": "垃圾鎮女王",
+      "nameEnglish": "Junker Queen",
+      "role": "tank",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "junkrat",
+      "name": "炸彈鼠",
+      "nameEnglish": "Junkrat",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "juno",
+      "name": "朱諾",
+      "nameEnglish": "Juno",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "kiriko",
+      "name": "霧子",
+      "nameEnglish": "Kiriko",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "lifeweaver",
+      "name": "織命",
+      "nameEnglish": "Lifeweaver",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "lucio",
+      "name": "路西歐",
+      "role": "support",
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [
+        {
+          "heroId": "reinhardt",
+          "strength": 0.85,
+          "reason": "Speed boost supports coordinated engage and disengage timing."
+        },
+        {
+          "heroId": "winston",
+          "strength": 0.6,
+          "reason": "Speed can help teammates follow a dive engagement."
+        }
+      ],
+      "strengths": [
+        "team mobility",
+        "area healing",
+        "displacement"
+      ],
+      "weaknesses": [
+        "limited long-range healing",
+        "requires positioning"
+      ],
+      "mobility": 0.9,
+      "range": 0.25,
+      "survivability": 0.7,
+      "utility": 0.8,
+      "difficulty": 0.5,
+      "nameEnglish": "Lúcio",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "mauga",
+      "name": "莫加",
+      "nameEnglish": "Mauga",
+      "role": "tank",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "mei",
+      "name": "小美",
+      "nameEnglish": "Mei",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "mercy",
+      "name": "慈悲",
+      "role": "support",
+      "counters": [],
+      "counteredBy": [
+        {
+          "heroId": "tracer",
+          "strength": 0.5,
+          "reason": "Mobile flank pressure can challenge Mercy when teammates are not nearby."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "pharah",
+          "strength": 0.85,
+          "reason": "Damage boost and mobility can strengthen an aerial pressure plan."
+        },
+        {
+          "heroId": "soldier76",
+          "strength": 0.55,
+          "reason": "Damage boost can improve sustained hitscan pressure."
+        }
+      ],
+      "strengths": [
+        "mobility between allies",
+        "damage boost",
+        "single-target healing"
+      ],
+      "weaknesses": [
+        "limited offensive pressure",
+        "depends on ally positioning"
+      ],
+      "mobility": 0.85,
+      "range": 0.35,
+      "survivability": 0.65,
+      "utility": 0.75,
+      "difficulty": 0.45,
+      "nameEnglish": "Mercy",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "mizuki",
+      "name": "瑞稀",
+      "nameEnglish": "Mizuki",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "moira",
+      "name": "莫伊拉",
+      "nameEnglish": "Moira",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "orisa",
+      "name": "歐瑞莎",
+      "role": "tank",
+      "counters": [
+        {
+          "heroId": "reinhardt",
+          "strength": 0.55,
+          "reason": "Ranged pressure and Fortify can challenge a predictable frontline approach."
+        }
+      ],
+      "counteredBy": [
+        {
+          "heroId": "ana",
+          "strength": 0.45,
+          "reason": "Sleep Dart and Biotic Grenade can interrupt or limit a committed push."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "ana",
+          "strength": 0.6,
+          "reason": "Longer-range healing can support a stable frontline."
+        }
+      ],
+      "strengths": [
+        "frontline durability",
+        "ranged pressure"
+      ],
+      "weaknesses": [
+        "limited mobility",
+        "large target"
+      ],
+      "mobility": 0.25,
+      "range": 0.65,
+      "survivability": 0.85,
+      "utility": 0.75,
+      "difficulty": 0.45,
+      "nameEnglish": "Orisa",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "pharah",
+      "name": "法拉",
+      "role": "damage",
+      "counters": [],
+      "counteredBy": [
+        {
+          "heroId": "soldier76",
+          "strength": 0.75,
+          "reason": "Hitscan pressure can punish predictable airborne paths."
+        },
+        {
+          "heroId": "dva",
+          "strength": 0.65,
+          "reason": "D.Va can contest angles with mobility and projectile denial."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "mercy",
+          "strength": 0.85,
+          "reason": "Damage boost and mobility can strengthen an aerial pressure plan."
+        }
+      ],
+      "strengths": [
+        "vertical mobility",
+        "splash damage",
+        "area denial"
+      ],
+      "weaknesses": [
+        "vulnerable to hitscan",
+        "limited indoor angles"
+      ],
+      "mobility": 0.85,
+      "range": 0.65,
+      "survivability": 0.5,
+      "utility": 0.6,
+      "difficulty": 0.55,
+      "nameEnglish": "Pharah",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "ramattra",
+      "name": "拉瑪塔",
+      "nameEnglish": "Ramattra",
+      "role": "tank",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "reaper",
+      "name": "死神",
+      "role": "damage",
+      "counters": [
+        {
+          "heroId": "winston",
+          "strength": 0.75,
+          "reason": "Close-range damage can punish Winston when he commits."
+        }
+      ],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [
+        "close-range damage",
+        "self-sustain"
+      ],
+      "weaknesses": [
+        "limited effective range",
+        "depends on access"
+      ],
+      "mobility": 0.55,
+      "range": 0.25,
+      "survivability": 0.65,
+      "utility": 0.45,
+      "difficulty": 0.45,
+      "nameEnglish": "Reaper",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "reinhardt",
+      "name": "萊因哈特",
+      "role": "tank",
+      "counters": [],
+      "counteredBy": [
+        {
+          "heroId": "dva",
+          "strength": 0.45,
+          "reason": "Can contest his barrier and pressure his backline around corners."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "lucio",
+          "strength": 0.85,
+          "reason": "Speed boost helps Reinhardt choose when to engage or disengage."
+        },
+        {
+          "heroId": "ana",
+          "strength": 0.65,
+          "reason": "Nano Boost can create a powerful frontline timing window."
+        }
+      ],
+      "strengths": [
+        "close-range pressure",
+        "frontline space"
+      ],
+      "weaknesses": [
+        "limited ranged pressure",
+        "low mobility"
+      ],
+      "mobility": 0.2,
+      "range": 0.2,
+      "survivability": 0.8,
+      "utility": 0.7,
+      "difficulty": 0.4,
+      "nameEnglish": "Reinhardt",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "roadhog",
+      "name": "攔路豬",
+      "nameEnglish": "Roadhog",
+      "role": "tank",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "shion",
+      "name": "死怨",
+      "nameEnglish": "Shion",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "sierra",
+      "name": "席艾拉",
+      "nameEnglish": "Sierra",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "sigma",
+      "name": "席格馬",
+      "nameEnglish": "Sigma",
+      "role": "tank",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "sojourn",
+      "name": "索潔恩",
+      "nameEnglish": "Sojourn",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "soldier76",
+      "name": "士兵 76",
+      "role": "damage",
+      "counters": [
+        {
+          "heroId": "pharah",
+          "strength": 0.75,
+          "reason": "Hitscan rifle pressure can contest airborne targets."
+        }
+      ],
+      "counteredBy": [
+        {
+          "heroId": "winston",
+          "strength": 0.55,
+          "reason": "A dive can force Soldier: 76 away from his preferred firing position."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "ana",
+          "strength": 0.55,
+          "reason": "Nano Boost can amplify his sustained damage during a clear timing window."
+        },
+        {
+          "heroId": "lucio",
+          "strength": 0.5,
+          "reason": "Speed can help reposition between sightlines."
+        }
+      ],
+      "strengths": [
+        "hitscan pressure",
+        "self-sustain",
+        "mid-range damage"
+      ],
+      "weaknesses": [
+        "limited burst",
+        "needs clear sightlines"
+      ],
+      "mobility": 0.55,
+      "range": 0.75,
+      "survivability": 0.6,
+      "utility": 0.45,
+      "difficulty": 0.3,
+      "nameEnglish": "Soldier: 76",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "sombra",
+      "name": "駭影",
+      "nameEnglish": "Sombra",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "symmetra",
+      "name": "辛梅塔",
+      "nameEnglish": "Symmetra",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "torbjorn",
+      "name": "托比昂",
+      "nameEnglish": "Torbjörn",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "tracer",
+      "name": "閃光",
+      "role": "damage",
+      "counters": [
+        {
+          "heroId": "zenyatta",
+          "strength": 0.7,
+          "reason": "High mobility can pressure an isolated support with limited escape tools."
+        }
+      ],
+      "counteredBy": [
+        {
+          "heroId": "winston",
+          "strength": 0.65,
+          "reason": "Tesla Cannon can track her through evasive movement."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "winston",
+          "strength": 0.8,
+          "reason": "Both can coordinate pressure on targets away from the frontline."
+        },
+        {
+          "heroId": "dva",
+          "strength": 0.6,
+          "reason": "Shared mobility supports multi-angle pressure."
+        }
+      ],
+      "strengths": [
+        "mobility",
+        "flanking",
+        "backline pressure"
+      ],
+      "weaknesses": [
+        "short range",
+        "low health"
+      ],
+      "mobility": 1.0,
+      "range": 0.25,
+      "survivability": 0.45,
+      "utility": 0.45,
+      "difficulty": 0.85,
+      "nameEnglish": "Tracer",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "vendetta",
+      "name": "宿怨",
+      "nameEnglish": "Vendetta",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "venture",
+      "name": "無畏",
+      "nameEnglish": "Venture",
+      "role": "damage",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "widowmaker",
+      "name": "奪命女",
+      "role": "damage",
+      "counters": [],
+      "counteredBy": [
+        {
+          "heroId": "winston",
+          "strength": 0.8,
+          "reason": "A mobile dive can challenge an isolated sniper position."
+        }
+      ],
+      "synergies": [],
+      "strengths": [
+        "long-range precision",
+        "sightline control"
+      ],
+      "weaknesses": [
+        "vulnerable when isolated",
+        "needs clear sightlines"
+      ],
+      "mobility": 0.45,
+      "range": 1.0,
+      "survivability": 0.35,
+      "utility": 0.45,
+      "difficulty": 0.8,
+      "nameEnglish": "Widowmaker",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "winston",
+      "name": "溫斯頓",
+      "role": "tank",
+      "counters": [
+        {
+          "heroId": "genji",
+          "strength": 0.75,
+          "reason": "Tesla Cannon can pressure Genji without relying on precise aim."
+        },
+        {
+          "heroId": "widowmaker",
+          "strength": 0.8,
+          "reason": "A mobile dive can challenge an isolated sniper position."
+        }
+      ],
+      "counteredBy": [
+        {
+          "heroId": "reaper",
+          "strength": 0.75,
+          "reason": "Reaper's close-range damage threatens Winston's large health pool."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "tracer",
+          "strength": 0.75,
+          "reason": "Coordinated dives can split attention and finish pressured targets."
+        },
+        {
+          "heroId": "lucio",
+          "strength": 0.6,
+          "reason": "Speed can help the team follow Winston's engagement."
+        }
+      ],
+      "strengths": [
+        "dive pressure",
+        "mobility",
+        "area damage"
+      ],
+      "weaknesses": [
+        "low ranged pressure",
+        "vulnerable when isolated"
+      ],
+      "mobility": 0.85,
+      "range": 0.25,
+      "survivability": 0.65,
+      "utility": 0.65,
+      "difficulty": 0.55,
+      "nameEnglish": "Winston",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "wreckingball",
+      "name": "火爆鋼球",
+      "nameEnglish": "Wrecking Ball",
+      "role": "tank",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "wuyang",
+      "name": "無漾",
+      "nameEnglish": "Wuyang",
+      "role": "support",
+      "dataStatus": "unrated-placeholder",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ],
+      "counters": [],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [],
+      "weaknesses": [],
+      "mobility": 0.5,
+      "range": 0.5,
+      "survivability": 0.5,
+      "utility": 0.5,
+      "difficulty": 0.5
+    },
+    {
+      "id": "zarya",
+      "name": "札莉雅",
+      "role": "tank",
+      "counters": [
+        {
+          "heroId": "dva",
+          "strength": 0.65,
+          "reason": "Particle Cannon beam damage is not stopped by Defense Matrix."
+        }
+      ],
+      "counteredBy": [],
+      "synergies": [],
+      "strengths": [
+        "beam damage",
+        "team protection"
+      ],
+      "weaknesses": [
+        "limited mobility",
+        "resource management"
+      ],
+      "mobility": 0.25,
+      "range": 0.45,
+      "survivability": 0.75,
+      "utility": 0.65,
+      "difficulty": 0.55,
+      "nameEnglish": "Zarya",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    },
+    {
+      "id": "zenyatta",
+      "name": "禪亞塔",
+      "role": "support",
+      "counters": [],
+      "counteredBy": [
+        {
+          "heroId": "tracer",
+          "strength": 0.7,
+          "reason": "A mobile flanker can pressure Zenyatta's limited escape options."
+        },
+        {
+          "heroId": "genji",
+          "strength": 0.55,
+          "reason": "A close-range dive can force Zenyatta away from safe sightlines."
+        }
+      ],
+      "synergies": [
+        {
+          "heroId": "tracer",
+          "strength": 0.5,
+          "reason": "Discord Orb can help teammates focus a target Tracer is contesting."
+        }
+      ],
+      "strengths": [
+        "damage amplification",
+        "long-range pressure",
+        "team information"
+      ],
+      "weaknesses": [
+        "low mobility",
+        "vulnerable to dive"
+      ],
+      "mobility": 0.1,
+      "range": 0.85,
+      "survivability": 0.35,
+      "utility": 0.85,
+      "difficulty": 0.65,
+      "nameEnglish": "Zenyatta",
+      "dataStatus": "prototype-unverified",
+      "sourceRefs": [
+        "blizzard-hero-page"
+      ]
+    }
+  ],
+  "dataAsOf": "2026-10-08",
+  "rosterSource": "blizzard-hero-page",
+  "dataVersion": "1.0.0",
+  "gamePatch": "2026-10-06",
+  "sourcesFile": "sources.json"
+}

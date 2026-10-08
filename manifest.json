@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "1.0.0",
+  "gamePatch": "2026-10-06",
+  "publishedAtUtc": "2026-10-08T05:44:37Z",
+  "changeSummary": "初始基準資料包；與桌面程式內建 v1.0.0 資料一致。",
+  "files": [
+    {
+      "name": "heroes.json",
+      "url": "heroes.json",
+      "sha256": "ea4861b107a41cd1e867d51bbc94e195cc95ec0901e9bf86a69e91f4ff95c340",
+      "sizeBytes": 36353
+    },
+    {
+      "name": "recommendation_weights.json",
+      "url": "recommendation_weights.json",
+      "sha256": "552059f490bafd67581cc39a8ed6f87fdb8065b22672a1a245c7a8aa54835460",
+      "sizeBytes": 181
+    },
+    {
+      "name": "sources.json",
+      "url": "sources.json",
+      "sha256": "ddf44e74c7ea6890dbc4600f26dc944abf5956f21483a40cb17623aad574b042",
+      "sizeBytes": 2202
+    }
+  ]
+}
